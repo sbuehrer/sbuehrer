@@ -1,0 +1,28 @@
+
+#wrapper { width: 80%;
+	   margin-right: auto;
+	   margin-left: auto;
+	   min-width: 700px;
+	   max-width: 1024px;
+	   text-align: center;
+	   background-color: #fff;
+	   }
+body {
+	font-family: Goergia, sans-serif;
+	background-color: #370A0A;
+	}
+#scottb { display: block;
+	margin: 0 auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	height:200px;
+	width:150px;
+	}
+#monte { 
+	display: block;
+	margin: 0 auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	height:270px;
+	width:720px;
+	}
