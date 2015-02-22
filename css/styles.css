@@ -1,5 +1,5 @@
 
-#wrapper { width: 80%;
+#wrapper { width: 80%;	
 	   margin-right: auto;
 	   margin-left: auto;
 	   min-width: 700px;
@@ -26,3 +26,94 @@ body {
 	height:270px;
 	width:720px;
 	}
+/* Custom, iPhone Retina */
+@media screen and (max-width: 320px)
+{
+	#wrapper {
+		margin: 0 auto;
+		position: relative;
+		min-width: 320px;
+	}
+	p { 
+		font-size: 14px;
+	}
+	.map {
+		display: none;
+	}
+	
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+{
+	#wrapper {
+		margin: 0 auto;
+		position: relative;
+		min-width: 480px;
+	}
+	p { 
+		font-size: 14px;
+	}
+	.map {
+			display: none;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+{
+	#wrapper {
+		margin: 0 auto;
+		position: relative;
+		min-width: 768px;
+	}
+	p { 
+		font-size: 14px;
+	}
+	.map {
+			display: none;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+{
+	#wrapper {
+		margin: 0 auto;
+		position: relative;
+		min-width: 992px;
+	}
+	p { 
+		font-size: 14px;
+	}
+	.map {
+		width: 600px;
+		height: 400px;
+		margin: 0 auto;
+		text-align: center;
+		display: block;
+		position: relative;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+	#wrapper {
+		margin: 0 auto;
+		position: relative;
+		min-width: 1200px;
+	}
+	p { 
+		font-size: 14px;
+	}
+	.map {
+			width: 600px;
+			height: 400px;
+			margin: 0 auto;
+			text-align: center;
+			display: block;
+			position: relative;
+	}
+}
