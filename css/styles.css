@@ -1,5 +1,5 @@
 
-#wrapper { width: 80%;	
+#wrapper { width: 80%;
 	   margin-right: auto;
 	   margin-left: auto;
 	   min-width: 700px;
@@ -26,6 +26,17 @@ body {
 	height:270px;
 	width:720px;
 	}
+.contact-left {
+  float: left;
+  margin-left: 20%;
+  margin-bottom: 10%;
+}
+.contact-right {
+  float: right;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
 /* Custom, iPhone Retina */
 @media screen and (max-width: 320px)
 {
@@ -39,6 +50,20 @@ body {
 	}
 	.map {
 		display: none;
+	}
+	#form-div {
+		background-color: #F7F7F7;
+		width: 300px;
+		padding: 10px 10px 10px 10px
+		float: left;
+	}
+	.contact-input {
+		color: #3c3c3c;
+		background-color: #fbfbfb;
+	}
+	#button-blue {
+		width: 35%;
+		cursor: pointer;
 	}
 	
 	
@@ -56,7 +81,21 @@ body {
 		font-size: 14px;
 	}
 	.map {
-			display: none;
+		display: none;
+	}
+	#form-div {
+		background-color: #F7F7F7;
+		width: 300px;
+		padding: 10px 10px 10px 10px
+		float: left;
+	}
+	.contact-input {
+		color: #3c3c3c;
+		background-color: #fbfbfb;
+	}
+	#button-blue {
+		width: 35%;
+		cursor: pointer;
 	}
 }
 
@@ -72,7 +111,21 @@ body {
 		font-size: 14px;
 	}
 	.map {
-			display: none;
+		display: none;
+	}
+	#form-div {
+		background-color: #F7F7F7;
+		width: 300px;
+		padding: 10px 10px 10px 10px
+		float: left;
+	}
+	.contact-input {
+		color: #3c3c3c;
+		background-color: #fbfbfb;
+	}
+	#button-blue {
+		width: 35%;
+		cursor: pointer;
 	}
 }
 
@@ -95,6 +148,20 @@ body {
 		display: block;
 		position: relative;
 	}
+	#form-div {
+		background-color: #F7F7F7;
+		width: 300px;
+		padding: 10px 10px 10px 10px
+		float: left;
+	}
+	.contact-input {
+		color: #3c3c3c;
+		background-color: #fbfbfb;
+	}
+	#button-blue {
+		width: 35%;
+		cursor: pointer;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -109,11 +176,25 @@ body {
 		font-size: 14px;
 	}
 	.map {
-			width: 600px;
-			height: 400px;
-			margin: 0 auto;
-			text-align: center;
-			display: block;
-			position: relative;
+		width: 500px;
+		height: 400px;
+		margin: 0 auto;
+		text-align: center;
+		display: block;
+		position: relative;
+	}
+	#form-div {
+		background-color: #F7F7F7;
+		width: 300px;
+		padding: 10px 10px 10px 10px
+		float: left;
+	}
+	.contact-input {
+		color: #3c3c3c;
+		background-color: #fbfbfb;
+	}
+	#button-blue {
+		width: 35%;
+		cursor: pointer;
 	}
 }
