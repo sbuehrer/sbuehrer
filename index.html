@@ -2,15 +2,24 @@
 <html lang="en">
 <head>
 <title>About</title>
-<link href="css/styles.css" type="text/css" rel="stylesheet" />
+<!--<link href="css/styles.css" type="text/css" rel="stylesheet" />-->
 <meta charset="utf-8">
 <meta name="description" content="portfolio web site"/>
 <meta name="author" content="Scott Buehrer"/>
 <meta name="keywords" content="porfolio, web design, computers, networking"/>
 <!--I do not have facebook or twitter accounts, I know, sad -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+<link href="css/styles.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 	<div id="wrapper"><!-- wrapper div starts here-->
+	<div class="navbar navbar-default">
+		  	<ul class="nav navbar-nav">
+		  		<li class="active"><a href="">Home</a></li>
+		  		<li><a href="">About</a></li>
+		  		<li><a href="">Contact</a></li>
+		  	</ul>
+	</div>
 		<h1>About Me</h1>
 			<img id="scottb" src="img/ScottB.jpg" alt="me" title="Scott Buehrer" />
 
@@ -27,15 +36,10 @@
 			<img id="monte" src="img/78monte.jpg" alt="78Monte" title="Monte Carlo" />
 		<br>
 		<br>
-		<div class="contact-right"><!-- position the map-->
-			<div class="contact">
-				<iframe class="map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=North%20Engineering%2C%20University%20of%20Toledo%2C%20Toledo%20Ohio&key=AIzaSyBzj4vvqZxCw2VCmogi0xlP-y5TPJD8Mm0"></iframe>
-        	</div>
-        </div>
-        <div class="contact-left"><!-- position the contact form-->
+        <div class="contact-center"><!-- position the contact form-->
 		    	<div id="form-div"><!-- beginning of the form div-->
 		    		<fieldset>
-		    			<legend>Contact Details</legend>
+		    			<legend class="details">Contact Details</legend>
 						<form class="contact-form" id="form">
 							<p class="name">
 								<input name="name" type="text" class="contact-input" placeholder="name" id="name" />
