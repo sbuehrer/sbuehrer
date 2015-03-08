@@ -26,6 +26,13 @@ body {
 	height:270px;
 	width:720px;
 	}
+<<<<<<< HEAD
+.contact-center {
+	margin-left: auto;
+    	margin-right: auto;
+    	}
+    	
+=======
 .contact-left {
   float: left;
   margin-left: 20%;
@@ -36,6 +43,7 @@ body {
   margin-right: 10%;
   margin-bottom: 10%;
 }
+>>>>>>> 483dbbc88997bdd926663d6e1083cc29dd18d7bd
 
 /* Custom, iPhone Retina */
 @media screen and (max-width: 320px)
@@ -55,7 +63,12 @@ body {
 		background-color: #F7F7F7;
 		width: 300px;
 		padding: 10px 10px 10px 10px
+<<<<<<< HEAD
+		margin-left: auto;
+    		margin-right: auto;
+=======
 		float: left;
+>>>>>>> 483dbbc88997bdd926663d6e1083cc29dd18d7bd
 	}
 	.contact-input {
 		color: #3c3c3c;
@@ -65,6 +78,12 @@ body {
 		width: 35%;
 		cursor: pointer;
 	}
+<<<<<<< HEAD
+	.details {
+		font-size: 14px;
+	}
+=======
+>>>>>>> 483dbbc88997bdd926663d6e1083cc29dd18d7bd
 	
 	
 }
@@ -80,6 +99,15 @@ body {
 	p { 
 		font-size: 14px;
 	}
+<<<<<<< HEAD
+	
+	#form-div {
+		background-color: #F7F7F7;
+		width: 300px;
+		padding: 10px 10px 10px 10px;
+		margin-left: auto;
+    		margin-right: auto;
+=======
 	.map {
 		display: none;
 	}
@@ -88,6 +116,7 @@ body {
 		width: 300px;
 		padding: 10px 10px 10px 10px
 		float: left;
+>>>>>>> 483dbbc88997bdd926663d6e1083cc29dd18d7bd
 	}
 	.contact-input {
 		color: #3c3c3c;
@@ -97,6 +126,12 @@ body {
 		width: 35%;
 		cursor: pointer;
 	}
+<<<<<<< HEAD
+	.details {
+		font-size: 14px;
+	}
+=======
+>>>>>>> 483dbbc88997bdd926663d6e1083cc29dd18d7bd
 }
 
 /* Small Devices, Tablets */
@@ -110,6 +145,15 @@ body {
 	p { 
 		font-size: 14px;
 	}
+<<<<<<< HEAD
+
+	#form-div {
+		background-color: #F7F7F7;
+		width: 300px;
+		padding: 10px 10px 10px 10px;
+		margin-left: auto;
+    		margin-right: auto;
+=======
 	.map {
 		display: none;
 	}
@@ -118,6 +162,7 @@ body {
 		width: 300px;
 		padding: 10px 10px 10px 10px
 		float: left;
+>>>>>>> 483dbbc88997bdd926663d6e1083cc29dd18d7bd
 	}
 	.contact-input {
 		color: #3c3c3c;
@@ -127,6 +172,13 @@ body {
 		width: 35%;
 		cursor: pointer;
 	}
+<<<<<<< HEAD
+	
+	.details {
+		font-size: 14px;
+	}
+=======
+>>>>>>> 483dbbc88997bdd926663d6e1083cc29dd18d7bd
 }
 
 /* Medium Devices, Desktops */
@@ -140,6 +192,15 @@ body {
 	p { 
 		font-size: 14px;
 	}
+<<<<<<< HEAD
+
+	#form-div {
+		background-color: #F7F7F7;
+		width: 300px;
+		padding: 10px 10px 10px 10px;
+		margin-left: auto;
+    		margin-right: auto;
+=======
 	.map {
 		width: 600px;
 		height: 400px;
@@ -153,6 +214,7 @@ body {
 		width: 300px;
 		padding: 10px 10px 10px 10px
 		float: left;
+>>>>>>> 483dbbc88997bdd926663d6e1083cc29dd18d7bd
 	}
 	.contact-input {
 		color: #3c3c3c;
@@ -162,6 +224,12 @@ body {
 		width: 35%;
 		cursor: pointer;
 	}
+<<<<<<< HEAD
+	.details {
+		font-size: 14px;
+	}
+=======
+>>>>>>> 483dbbc88997bdd926663d6e1083cc29dd18d7bd
 }
 
 /* Large Devices, Wide Screens */
@@ -175,6 +243,32 @@ body {
 	p { 
 		font-size: 14px;
 	}
+<<<<<<< HEAD
+	
+
+	#form-div {
+		background-color: #F7F7F7;
+		width: 300px;
+		padding: 10px 10px 10px 10px;
+		margin-left: auto;
+    		margin-right: auto;
+    		border: 2px solid blue;
+		
+	}
+	.contact-input {
+		color: blue;
+		background-color: #fbfbfb;
+	}
+	
+	#button-blue {
+		width: 35%;
+		cursor: pointer;
+		color: blue;
+	}
+	.details {
+	font-size: 14px;
+	color: blue;
+=======
 	.map {
 		width: 500px;
 		height: 400px;
@@ -196,5 +290,6 @@ body {
 	#button-blue {
 		width: 35%;
 		cursor: pointer;
+>>>>>>> 483dbbc88997bdd926663d6e1083cc29dd18d7bd
 	}
 }
