@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
 <title>About</title>
+<script type="text/javascript">
+
+	 function hideImage(){
+	        document.getElementById('monte').style.display='none';
+    }
+</script>
 <!--<link href="css/styles.css" type="text/css" rel="stylesheet" />-->
 <meta charset="utf-8">
 <meta name="description" content="portfolio web site"/>
@@ -34,6 +40,7 @@
 	</ul>
 		<p>I also spent a couple years restoring a '78 Monte Carlo that was from my childhood, probably one of my greatest achievements, besides my family.</p>
 			<img id="monte" src="img/78monte.jpg" alt="78Monte" title="Monte Carlo" />
+		    <input type="button" value="Hide" onclick="hideImage();"/>
 		<br>
 		<br>
         <div class="contact-center"><!-- position the contact form-->
@@ -61,5 +68,6 @@
 		<br>
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	</div><!-- end of div wrapper-->
+<!--<script src="js/functions.js"></script> -->
 </body>
 </html>
