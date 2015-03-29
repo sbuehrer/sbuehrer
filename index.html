@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>About</title>
-<script type="text/javascript">
-
-	 function hideImage(){
-	        document.getElementById('monte').style.display='none';
-    }
-</script>
+<title>About Me</title>
 <!--<link href="css/styles.css" type="text/css" rel="stylesheet" />-->
 <meta charset="utf-8">
 <meta name="description" content="portfolio web site"/>
@@ -15,7 +9,15 @@
 <meta name="keywords" content="porfolio, web design, computers, networking"/>
 <!--I do not have facebook or twitter accounts, I know, sad -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <link href="css/styles.css" type="text/css" rel="stylesheet" />
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#monte").toggle();
+    });
+});
+</script>
 </head>
 <body>
 	<div id="wrapper"><!-- wrapper div starts here-->
@@ -40,7 +42,7 @@
 	</ul>
 		<p>I also spent a couple years restoring a '78 Monte Carlo that was from my childhood, probably one of my greatest achievements, besides my family.</p>
 			<img id="monte" src="img/78monte.jpg" alt="78Monte" title="Monte Carlo" />
-		    <input type="button" value="Hide" onclick="hideImage();"/>
+			<button>Monte-No Monte</button>
 		<br>
 		<br>
         <div class="contact-center"><!-- position the contact form-->
@@ -68,6 +70,5 @@
 		<br>
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	</div><!-- end of div wrapper-->
-<!--<script src="js/functions.js"></script> -->
 </body>
 </html>
